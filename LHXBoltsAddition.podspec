@@ -1,8 +1,9 @@
 Pod::Spec.new do |s|
   s.name             = 'LHXBoltsAddition'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'Add-on for Bolts'
   s.description      = <<-DESC
+          Add-on for Bolts
                        DESC
 
   s.homepage         = 'https://github.com/caoer/LHXBoltsAddition'
@@ -12,4 +13,5 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'
   s.source_files = 'LHXBoltsAddition/Classes/**/*'
   s.dependency 'Bolts'
+  s.dependency 'LHXCore'
 end
