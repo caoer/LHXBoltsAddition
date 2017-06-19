@@ -1,0 +1,22 @@
+{
+  "name": "LHXBoltsAddition",
+  "version": "0.1.0",
+  "summary": "A short description of LHXBoltsAddition.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/caoer/LHXBoltsAddition",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "caoer": "caoer115@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/caoer/LHXBoltsAddition.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "LHXBoltsAddition/Classes/**/*"
+}

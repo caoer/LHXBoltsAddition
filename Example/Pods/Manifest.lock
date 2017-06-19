@@ -1,0 +1,16 @@
+PODS:
+  - LHXBoltsAddition (0.1.0)
+
+DEPENDENCIES:
+  - LHXBoltsAddition (from `../`)
+
+EXTERNAL SOURCES:
+  LHXBoltsAddition:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LHXBoltsAddition: a3f7c971cebd6db789b4c69d877070eec12df073
+
+PODFILE CHECKSUM: a253f6a09a3af94a72f1813c87dbb209043f3bc6
+
+COCOAPODS: 1.2.1

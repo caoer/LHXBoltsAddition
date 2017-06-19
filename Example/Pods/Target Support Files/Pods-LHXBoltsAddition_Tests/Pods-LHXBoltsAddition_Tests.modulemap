@@ -1,0 +1,6 @@
+framework module Pods_LHXBoltsAddition_Tests {
+  umbrella header "Pods-LHXBoltsAddition_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

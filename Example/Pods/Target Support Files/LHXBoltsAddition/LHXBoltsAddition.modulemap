@@ -1,0 +1,6 @@
+framework module LHXBoltsAddition {
+  umbrella header "LHXBoltsAddition-umbrella.h"
+
+  export *
+  module * { export * }
+}
