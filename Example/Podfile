@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LHXBoltsAddition_Example' do
+  pod 'LHXBoltsAddition', :path => '../'
+
+  target 'LHXBoltsAddition_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
