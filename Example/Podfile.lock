@@ -1,5 +1,14 @@
 PODS:
-  - LHXBoltsAddition (0.1.0)
+  - Bolts (1.8.4):
+    - Bolts/AppLinks (= 1.8.4)
+    - Bolts/Tasks (= 1.8.4)
+  - Bolts/AppLinks (1.8.4):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.8.4)
+  - LHXBoltsAddition (0.1.2):
+    - Bolts
+    - LHXCore
+  - LHXCore (0.0.3)
 
 DEPENDENCIES:
   - LHXBoltsAddition (from `../`)
@@ -9,8 +18,10 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  LHXBoltsAddition: a3f7c971cebd6db789b4c69d877070eec12df073
+  Bolts: 8a7995239dbe724f9cba2248b766d48b7ebdd322
+  LHXBoltsAddition: 66ef3195c284d3221cea559630e1483a6c190c81
+  LHXCore: 3da40cdb9e68f5b547b36dfb7517bd9e5edfc2f8
 
-PODFILE CHECKSUM: a253f6a09a3af94a72f1813c87dbb209043f3bc6
+PODFILE CHECKSUM: 688096063d80017536dee5e8f0f3112374803ac6
 
 COCOAPODS: 1.2.1

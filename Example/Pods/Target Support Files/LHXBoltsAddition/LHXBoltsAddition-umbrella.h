@@ -10,6 +10,9 @@
 #endif
 #endif
 
+#import "BFTask+LighthouseX.h"
+#import "BFTaskColdGenerator.h"
+#import "LHXAsyncTaskQueue.h"
 
 FOUNDATION_EXPORT double LHXBoltsAdditionVersionNumber;
 FOUNDATION_EXPORT const unsigned char LHXBoltsAdditionVersionString[];

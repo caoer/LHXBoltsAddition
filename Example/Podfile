@@ -1,6 +1,10 @@
-use_frameworks!
+platform :ios, '10.1'
+
+source 'https://github.com/caoer/Specs.git'
+source 'https://github.com/CocoaPods/Specs.git'
 
 target 'LHXBoltsAddition_Example' do
+  use_frameworks!
   pod 'LHXBoltsAddition', :path => '../'
 
   target 'LHXBoltsAddition_Tests' do

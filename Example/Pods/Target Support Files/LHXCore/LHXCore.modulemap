@@ -1,0 +1,6 @@
+framework module LHXCore {
+  umbrella header "LHXCore-umbrella.h"
+
+  export *
+  module * { export * }
+}
