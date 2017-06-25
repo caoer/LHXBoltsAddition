@@ -14,6 +14,8 @@ FOUNDATION_EXPORT double LHXBoltsAdditionVersionNumber;
 //! Project version string for LHXBoltsAddition.
 FOUNDATION_EXPORT const unsigned char LHXBoltsAdditionVersionString[];
 
-// In this header, you should import all the public headers of your framework using statements like #import <LHXBoltsAddition/PublicHeader.h>
+#import <LHXBoltsAddition/BFTask+LighthouseX.h>
+#import <LHXBoltsAddition/BFTaskColdGenerator.h>
+#import <LHXBoltsAddition/LHXAsyncTaskQueue.h>
 
 
