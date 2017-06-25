@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'LHXBoltsAddition'
-  s.version          = '0.1.3'
+  s.version          = '0.1.4'
   s.summary          = 'Add-on for Bolts'
   s.description      = <<-DESC
           Add-on for Bolts
