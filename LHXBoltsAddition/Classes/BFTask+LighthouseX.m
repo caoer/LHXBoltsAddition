@@ -6,7 +6,7 @@
 //
 
 #import "BFTask+LighthouseX.h"
-#import "LHXLog.h"
+@import LHXCore;
 
 @implementation BFExecutor (Background)
 

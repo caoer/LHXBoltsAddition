@@ -14,6 +14,8 @@
 		09B533651EFFCAEC008AA422 /* BFTaskColdGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 09B5335E1EFFCAEC008AA422 /* BFTaskColdGenerator.m */; };
 		09B533661EFFCAEC008AA422 /* LHXAsyncTaskQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 09B5335F1EFFCAEC008AA422 /* LHXAsyncTaskQueue.h */; };
 		09B533671EFFCAEC008AA422 /* LHXAsyncTaskQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 09B533601EFFCAEC008AA422 /* LHXAsyncTaskQueue.m */; };
+		09B5336A1EFFCBA8008AA422 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09B533691EFFCBA8008AA422 /* Bolts.framework */; };
+		09B533DB1EFFD032008AA422 /* LHXCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09B533DA1EFFD032008AA422 /* LHXCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		09B5335E1EFFCAEC008AA422 /* BFTaskColdGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFTaskColdGenerator.m; sourceTree = "<group>"; };
 		09B5335F1EFFCAEC008AA422 /* LHXAsyncTaskQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHXAsyncTaskQueue.h; sourceTree = "<group>"; };
 		09B533601EFFCAEC008AA422 /* LHXAsyncTaskQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHXAsyncTaskQueue.m; sourceTree = "<group>"; };
+		09B533691EFFCBA8008AA422 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = Carthage/Build/iOS/Bolts.framework; sourceTree = "<group>"; };
+		09B533DA1EFFD032008AA422 /* LHXCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LHXCore.framework; path = Carthage/Build/iOS/LHXCore.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +37,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09B533DB1EFFD032008AA422 /* LHXCore.framework in Frameworks */,
+				09B5336A1EFFCBA8008AA422 /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +50,7 @@
 			children = (
 				09B533501EFFCAD3008AA422 /* LHXBoltsAddition */,
 				09B5334F1EFFCAD3008AA422 /* Products */,
+				09B533681EFFCBA8008AA422 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -76,6 +83,15 @@
 				09B533601EFFCAEC008AA422 /* LHXAsyncTaskQueue.m */,
 			);
 			path = Classes;
+			sourceTree = "<group>";
+		};
+		09B533681EFFCBA8008AA422 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				09B533DA1EFFD032008AA422 /* LHXCore.framework */,
+				09B533691EFFCBA8008AA422 /* Bolts.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -277,6 +293,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = LHXBoltsAddition/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -295,6 +315,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = LHXBoltsAddition/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
