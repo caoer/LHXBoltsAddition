@@ -8,11 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		09B533531EFFCAD3008AA422 /* LHXBoltsAddition.h in Headers */ = {isa = PBXBuildFile; fileRef = 09B533511EFFCAD3008AA422 /* LHXBoltsAddition.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		09B533621EFFCAEC008AA422 /* BFTask+LighthouseX.h in Headers */ = {isa = PBXBuildFile; fileRef = 09B5335B1EFFCAEC008AA422 /* BFTask+LighthouseX.h */; };
+		09B533621EFFCAEC008AA422 /* BFTask+LighthouseX.h in Headers */ = {isa = PBXBuildFile; fileRef = 09B5335B1EFFCAEC008AA422 /* BFTask+LighthouseX.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		09B533631EFFCAEC008AA422 /* BFTask+LighthouseX.m in Sources */ = {isa = PBXBuildFile; fileRef = 09B5335C1EFFCAEC008AA422 /* BFTask+LighthouseX.m */; };
-		09B533641EFFCAEC008AA422 /* BFTaskColdGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 09B5335D1EFFCAEC008AA422 /* BFTaskColdGenerator.h */; };
+		09B533641EFFCAEC008AA422 /* BFTaskColdGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 09B5335D1EFFCAEC008AA422 /* BFTaskColdGenerator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		09B533651EFFCAEC008AA422 /* BFTaskColdGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 09B5335E1EFFCAEC008AA422 /* BFTaskColdGenerator.m */; };
-		09B533661EFFCAEC008AA422 /* LHXAsyncTaskQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 09B5335F1EFFCAEC008AA422 /* LHXAsyncTaskQueue.h */; };
+		09B533661EFFCAEC008AA422 /* LHXAsyncTaskQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 09B5335F1EFFCAEC008AA422 /* LHXAsyncTaskQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		09B533671EFFCAEC008AA422 /* LHXAsyncTaskQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 09B533601EFFCAEC008AA422 /* LHXAsyncTaskQueue.m */; };
 		09B5336A1EFFCBA8008AA422 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09B533691EFFCBA8008AA422 /* Bolts.framework */; };
 		09B533DB1EFFD032008AA422 /* LHXCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09B533DA1EFFD032008AA422 /* LHXCore.framework */; };
