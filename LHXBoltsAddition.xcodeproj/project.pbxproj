@@ -1,0 +1,331 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09B533531EFFCAD3008AA422 /* LHXBoltsAddition.h in Headers */ = {isa = PBXBuildFile; fileRef = 09B533511EFFCAD3008AA422 /* LHXBoltsAddition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		09B533621EFFCAEC008AA422 /* BFTask+LighthouseX.h in Headers */ = {isa = PBXBuildFile; fileRef = 09B5335B1EFFCAEC008AA422 /* BFTask+LighthouseX.h */; };
+		09B533631EFFCAEC008AA422 /* BFTask+LighthouseX.m in Sources */ = {isa = PBXBuildFile; fileRef = 09B5335C1EFFCAEC008AA422 /* BFTask+LighthouseX.m */; };
+		09B533641EFFCAEC008AA422 /* BFTaskColdGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 09B5335D1EFFCAEC008AA422 /* BFTaskColdGenerator.h */; };
+		09B533651EFFCAEC008AA422 /* BFTaskColdGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 09B5335E1EFFCAEC008AA422 /* BFTaskColdGenerator.m */; };
+		09B533661EFFCAEC008AA422 /* LHXAsyncTaskQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 09B5335F1EFFCAEC008AA422 /* LHXAsyncTaskQueue.h */; };
+		09B533671EFFCAEC008AA422 /* LHXAsyncTaskQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 09B533601EFFCAEC008AA422 /* LHXAsyncTaskQueue.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		09B5334E1EFFCAD3008AA422 /* LHXBoltsAddition.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LHXBoltsAddition.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		09B533511EFFCAD3008AA422 /* LHXBoltsAddition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LHXBoltsAddition.h; sourceTree = "<group>"; };
+		09B533521EFFCAD3008AA422 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09B5335B1EFFCAEC008AA422 /* BFTask+LighthouseX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BFTask+LighthouseX.h"; sourceTree = "<group>"; };
+		09B5335C1EFFCAEC008AA422 /* BFTask+LighthouseX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BFTask+LighthouseX.m"; sourceTree = "<group>"; };
+		09B5335D1EFFCAEC008AA422 /* BFTaskColdGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFTaskColdGenerator.h; sourceTree = "<group>"; };
+		09B5335E1EFFCAEC008AA422 /* BFTaskColdGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFTaskColdGenerator.m; sourceTree = "<group>"; };
+		09B5335F1EFFCAEC008AA422 /* LHXAsyncTaskQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHXAsyncTaskQueue.h; sourceTree = "<group>"; };
+		09B533601EFFCAEC008AA422 /* LHXAsyncTaskQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHXAsyncTaskQueue.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09B5334A1EFFCAD3008AA422 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09B533441EFFCAD3008AA422 = {
+			isa = PBXGroup;
+			children = (
+				09B533501EFFCAD3008AA422 /* LHXBoltsAddition */,
+				09B5334F1EFFCAD3008AA422 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		09B5334F1EFFCAD3008AA422 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09B5334E1EFFCAD3008AA422 /* LHXBoltsAddition.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		09B533501EFFCAD3008AA422 /* LHXBoltsAddition */ = {
+			isa = PBXGroup;
+			children = (
+				09B533591EFFCAEC008AA422 /* Classes */,
+				09B533511EFFCAD3008AA422 /* LHXBoltsAddition.h */,
+				09B533521EFFCAD3008AA422 /* Info.plist */,
+			);
+			path = LHXBoltsAddition;
+			sourceTree = "<group>";
+		};
+		09B533591EFFCAEC008AA422 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				09B5335B1EFFCAEC008AA422 /* BFTask+LighthouseX.h */,
+				09B5335C1EFFCAEC008AA422 /* BFTask+LighthouseX.m */,
+				09B5335D1EFFCAEC008AA422 /* BFTaskColdGenerator.h */,
+				09B5335E1EFFCAEC008AA422 /* BFTaskColdGenerator.m */,
+				09B5335F1EFFCAEC008AA422 /* LHXAsyncTaskQueue.h */,
+				09B533601EFFCAEC008AA422 /* LHXAsyncTaskQueue.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		09B5334B1EFFCAD3008AA422 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09B533621EFFCAEC008AA422 /* BFTask+LighthouseX.h in Headers */,
+				09B533531EFFCAD3008AA422 /* LHXBoltsAddition.h in Headers */,
+				09B533641EFFCAEC008AA422 /* BFTaskColdGenerator.h in Headers */,
+				09B533661EFFCAEC008AA422 /* LHXAsyncTaskQueue.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		09B5334D1EFFCAD3008AA422 /* LHXBoltsAddition */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09B533561EFFCAD3008AA422 /* Build configuration list for PBXNativeTarget "LHXBoltsAddition" */;
+			buildPhases = (
+				09B533491EFFCAD3008AA422 /* Sources */,
+				09B5334A1EFFCAD3008AA422 /* Frameworks */,
+				09B5334B1EFFCAD3008AA422 /* Headers */,
+				09B5334C1EFFCAD3008AA422 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LHXBoltsAddition;
+			productName = LHXBoltsAddition;
+			productReference = 09B5334E1EFFCAD3008AA422 /* LHXBoltsAddition.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		09B533451EFFCAD3008AA422 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Zitao Xiong";
+				TargetAttributes = {
+					09B5334D1EFFCAD3008AA422 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = SDR7T9YB58;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 09B533481EFFCAD3008AA422 /* Build configuration list for PBXProject "LHXBoltsAddition" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 09B533441EFFCAD3008AA422;
+			productRefGroup = 09B5334F1EFFCAD3008AA422 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				09B5334D1EFFCAD3008AA422 /* LHXBoltsAddition */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		09B5334C1EFFCAD3008AA422 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09B533491EFFCAD3008AA422 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09B533651EFFCAEC008AA422 /* BFTaskColdGenerator.m in Sources */,
+				09B533631EFFCAEC008AA422 /* BFTask+LighthouseX.m in Sources */,
+				09B533671EFFCAEC008AA422 /* LHXAsyncTaskQueue.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		09B533541EFFCAD3008AA422 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		09B533551EFFCAD3008AA422 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		09B533571EFFCAD3008AA422 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = SDR7T9YB58;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = LHXBoltsAddition/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lighth0usex.dev.LHXBoltsAddition;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		09B533581EFFCAD3008AA422 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = SDR7T9YB58;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = LHXBoltsAddition/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lighth0usex.dev.LHXBoltsAddition;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09B533481EFFCAD3008AA422 /* Build configuration list for PBXProject "LHXBoltsAddition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09B533541EFFCAD3008AA422 /* Debug */,
+				09B533551EFFCAD3008AA422 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09B533561EFFCAD3008AA422 /* Build configuration list for PBXNativeTarget "LHXBoltsAddition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09B533571EFFCAD3008AA422 /* Debug */,
+				09B533581EFFCAD3008AA422 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 09B533451EFFCAD3008AA422 /* Project object */;
+}
